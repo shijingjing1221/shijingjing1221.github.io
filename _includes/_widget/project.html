@@ -1,0 +1,15 @@
+{% if site.categories | size != 0 %}
+<div class="categorieslist projectlist">
+<p class="asidetitle">{{ lang.projects }}</p>
+	<ul>
+	{% for project in site.data.projects %}
+		<li>
+            <p>
+                <h4>{{ project.name }}</h4>
+				<a href="{{ project.link }}" title=">{{ project.name }}">{{ project.link }}</a>
+            </p>
+        </li>
+	{% endfor %}
+	</ul>
+</div>
+{% endif %}

@@ -1,0 +1,9 @@
+- name: Online linux man page
+  link: "http://man.linuxtool.net"
+  description: "List all the major version of Red Hat Enterprise Linux(Linux)/CentOS man page for your quick reference."
+- name: Search linux command
+  link: "http://www.cmdsearch.com"
+  description: "Search the usage of Linux command in the office Red Hat documents."
+- name: RHCE linux command
+  link: "http://www.linuxcommand.cn"
+  description: "List all the linux commands for RHCE, as well as other common usage command. You can also add your commands."

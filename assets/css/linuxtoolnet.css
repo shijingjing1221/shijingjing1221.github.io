@@ -1,0 +1,9 @@
+.projectlist li a{
+    color: #100de4;
+}
+
+.projectlist li h4{
+    font-weight: bold;
+    padding: 0 5%;
+    color: black;
+}
