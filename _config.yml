@@ -33,8 +33,8 @@ defaults:
 paginate: 20
 
 #### Site
-title : Linux tool
-tagline: A collection of useful linux tools
+title : Jingjing Shi
+tagline: Girl, with full-stack skill
 assets: /assets
 baseurl: 
 
@@ -87,7 +87,7 @@ mathjax: true      #enable mathjax if true
 #### Author information
 author:
   name: Jingjing Shi      ## e.g. wuchong Author name
-  intro_line1:  "Hello, I'm a web engineer who frequently use L"    ## your introduction on the bottom of the page
+  intro_line1:  "Hello, I'm a full-stack engineer with 3 year backend experience, and 3 years web experience."    ## your introduction on the bottom of the page
   intro_line2:  "This is my blog, believe it or not."  ## the 2nd line
   weibo:      http://weibo.com/1834521094
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
