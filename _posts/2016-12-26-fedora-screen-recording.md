@@ -23,3 +23,8 @@ ffmpeg -video_size 1920x1080 -framerate 25 -f x11grab -i :0.0 -f alsa -ac 2 -i h
 ffmpeg -video_size 1024x768 -framerate 25 -f x11grab -i :0.0 -f pulse -ac 2 -i default output.mkv
 
 ```
+
+我的电脑是双屏幕，我的左平面是1366x768，我的右屏幕是1920x1020，我想录制右屏幕，所以我加了偏移量1366,0
+```
+ffmpeg -video_size 1920x1080 -framerate 25 -f x11grab -i :0.0+1366:0 -f alsa -ac 2 -i hw:0 output.mkv
+```
